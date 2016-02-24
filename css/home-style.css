@@ -17,21 +17,31 @@ abbr, acronym
 
 /* Body */
 body{
-	background-image: url(../img/BackgroundPatternLight.png);
+	background-image: url(img/BackgroundPatternLight.png);
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src: url(fonts/helvetica.otf) format ('opentype');
+}
+
+@font-face {
+	font-family: 'Berling';
+	src: url(fonts/berling.otf) format ('opentype');
 }
 
 #wrapper {
-	max-width: 920px;
+	max-width: 910px;
 	margin: 0 auto;
 	color: #1B2F3A;
 }
 
 .sans-serif {
-	font-family: 'museo sans', helvetica, arial, sans-serif;
+	font-family: 'helvetica', arial, sans-serif;
 }
 
 .serif {
-	font-family: 'brandon grotesque', 'times new roman', serif;
+	font-family: 'Berling', "times new roman", serif;
 }
 
 h1.sans-serif {
@@ -53,8 +63,10 @@ section {
 }
 
 h2.serif {
-	font-size: 415%;
-	font-weight: 500;
+	font-size: 425%;;
+	letter-spacing: 1px;
+	line-height: 1.3;
+	font-weight: 300;
 }
 
 .left {
