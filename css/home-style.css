@@ -84,16 +84,16 @@ section a:link {
 	text-decoration: underline;
 }
 
-section a:hover {
-	color: #DB3A1B;
-}
-
 section a:visited {
 	color: #E85C41;
 }
 
 section a:active {
 	color: #E85C41;
+}
+
+section a:hover {
+	color: #DB3A1B;
 }
 
 li a:link {
@@ -107,11 +107,11 @@ li a:visited {
 	color: #1B2F3A;
 }
 
+li a:active {
+	text-decoration: none;
+}
+
 li a:hover {
 	background-color: white;
 	font-weight: 700;
-}
-
-li a:active {
-	text-decoration: none;
 }
