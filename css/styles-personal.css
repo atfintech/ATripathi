@@ -16,6 +16,99 @@ abbr, acronym
 { border-bottom: .1em dotted; cursor: help; }
 
 /* Body */
-body {
+#wrapper {
+	max-width: 910px;
+	margin: 0 auto;
+	color: #1B2F3A;
+}
 
+h1 {
+  border-bottom: 5px solid black;
+  float: left;
+}
+
+.navigation li {
+  float: right;
+  margin-left: 20px;
+}
+
+h2 {
+  clear: both;
+  font-size: 60px;
+  font-weight: normal;
+  margin: -30px;
+}
+
+section p {
+  padding: 60px;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+section ul li a {
+
+}
+
+/* Link Syling */
+/* Expanding Section */
+/* Expanding Section */
+/* Expanding Section */
+/* Expanding Section */
+section ul.pictures li {
+  float: left;
+}
+
+.toggle-box {
+  display: none;
+}
+
+.toggle-box + label {
+  cursor: pointer;
+  display: block;
+  font-weight: bold;
+  line-height: 21px;
+  margin-bottom: 5px;
+}
+
+.toggle-box + label + div {
+  display: none;
+  margin-bottom: 10px;
+}
+
+.toggle-box:checked + label + div {
+  display: block;
+}
+
+.toggle-box + label:before {
+  background-color: #4F5150;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  content: "+";
+  display: block;
+  float: left;
+  font-weight: bold;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 5px;
+  text-align: center;
+  width: 20px;
+}
+
+.toggle-box:checked + label:before {
+  content: "\2212";
+}
+
+li img {
+  width: 50px;
+  height: 50px;
+}
+
+.pic_content {
+  width: auto 0;
+}
+
+p {
+  clear: both;
 }
