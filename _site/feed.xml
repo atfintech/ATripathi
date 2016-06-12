@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FinTech to Go</title>
+    <description>The fastest way to keep up with FinTech news.</description>
+    <link>http://www.fintechtogo.com</link>
+    <atom:link href="http://www.fintechtogo.com/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>JP Morgan Chase just realised a 10 page report on the how they are servicing the most underprivileged in Chicago by sending them Visa gift cards. Check out the result of their 10 year study.</title>
+        <description>JPM Chase</description>
+        <pubDate></pubDate>
+        <link>http://www.bloomberg.com</link>
+        <guid isPermaLink="true">http://www.bloomberg.com</guid>
+      </item>
+    
+      <item>
+        <title>A visualization of the tech space in London, England.</title>
+        <description>Kyle Kelley</description>
+        <pubDate></pubDate>
+        <link>http://www.devour.com</link>
+        <guid isPermaLink="true">http://www.devour.com</guid>
+      </item>
+    
+      <item>
+        <title>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</title>
+        <description>Brett King</description>
+        <pubDate></pubDate>
+        <link>http://www.qz.com</link>
+        <guid isPermaLink="true">http://www.qz.com</guid>
+      </item>
+    
+      <item>
+        <title>Blockchain is awesome, but banks don&#39;t think so. What should we do about that?</title>
+        <description>Min Yang</description>
+        <pubDate></pubDate>
+        <link>http://www.yahoo.com</link>
+        <guid isPermaLink="true">http://www.yahoo.com</guid>
+      </item>
+    
+      <item>
+        <title>The Rise and Fall of Banks</title>
+        <description>Anuraag Tripathi</description>
+        <pubDate></pubDate>
+        <link>http://www.google.com</link>
+        <guid isPermaLink="true">http://www.google.com</guid>
+      </item>
+    
+  </channel>
+</rss>

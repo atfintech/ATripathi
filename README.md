@@ -1,2 +1,2 @@
-# Atripathi
-Main personal site - a host for my coding techique, personal articles, and a conduit to reach me.
+# CodeKit
+A starting point for my websites w/ Jekyll, jQuery, Bourbon, Neat, &amp; SASS

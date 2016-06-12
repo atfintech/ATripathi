@@ -1,0 +1,45 @@
+// Footer
+footer
+  text-align: center
+  margin-top: 15px
+
+  div
+    @include clearfix
+    margin-bottom: 5px
+
+    h3
+      display: inline-block
+      text-align: left
+      float: left
+      width: 30%
+
+    div
+      display: inline-block
+      text-align: right
+      float: left
+      width: 70%
+
+      a
+        text-decoration: none
+
+      img
+        +size(20px)
+        margin-left: 1%
+
+  h2
+    display: inline-block
+    text-align: center
+    margin-bottom: 15px
+
+
+// Footer Media Queries
+@media screen and (max-width: 800px)
+  footer h2
+    margin-top: 10px
+    margin-bottom: -5px
+
+  footer a
+    margin-left: 7%
+
+  footer a:first-child
+    margin-left: 0
