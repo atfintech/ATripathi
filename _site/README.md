@@ -1,2 +1,2 @@
-# FinTechToGo
-The fastest way to stay up to date on FinTech
+# Atripathi
+Main personal site - a host for my coding techique, personal articles, and a conduit to reach me.
