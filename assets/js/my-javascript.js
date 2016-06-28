@@ -1,14 +1,18 @@
 $(document).ready(function(){
 
-  $('.button').click(function(){
-    var buttonId = $(this).attr('id');
-    $('#modal-container').removeAttr('class').addClass(buttonId);
-    $('body').addClass('modal-active');
-  })
+	window.setTimeout(function() {
+		$('section.accordian').css('opacity', '1');
+	}, 2000);
 
-  $('#modal-container').click(function(){
-    $(this).addClass('out');
-    $('body').removeClass('modal-active');
-  });
+	$('div').addClass('default');
+
+		$('div').on('click', function() {
+
+	  	var e = $('section.accordian > div');
+			if(e.hasClass('expand')){
+				 e.removeClass('expand');
+			 	$(this).addClass('expand');
+			} else { $(this).addClass('expand'); }
+		})
 
 });
