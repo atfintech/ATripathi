@@ -1,6 +1,17 @@
 ---
 permalink: /test
 ---
-{% include meta.html %}
-{% include accordian.html %}
-{% include scripts.html %}
+<!DOCTYPE html>
+<html>
+  <head>
+  {% include meta.html %}
+  </head>
+  <body>
+    <div id="wrapper">
+      {% include navigation.html %}
+      {% include introduction.html %}
+    </div>
+      {% include accordian.html %}
+      {% include scripts.html %}
+  </body>
+</html>
