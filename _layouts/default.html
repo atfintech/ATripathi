@@ -4,10 +4,12 @@
     {% include meta.html %}
   </head>
   <body>
-    <div id="wrapper">
+    <div class="wrapper">
       {% include navigation.html %}
       {% include introduction.html %}
-      {% include accordian.html %}
+    </div>
+    {% include accordian.html %}
+    <div class="wrapper">
       {{ content }}
     </div>
     {% include scripts.html %}
